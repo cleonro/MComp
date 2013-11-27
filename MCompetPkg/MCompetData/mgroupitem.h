@@ -1,7 +1,10 @@
 #ifndef MGROUPITEM_H
 #define MGROUPITEM_H
 
-class MGroupItem : public MItem
+#include "mcompetdata_global.h"
+#include "mitem.h"
+
+class MCOMPETDATASHARED_EXPORT MGroupItem : public MItem
 {
 public:
     MGroupItem();

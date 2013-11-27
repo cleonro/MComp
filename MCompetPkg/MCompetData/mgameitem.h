@@ -1,7 +1,10 @@
 #ifndef MGAMEITEM_H
 #define MGAMEITEM_H
 
-class MGameItem : public MItem
+#include "mcompetdata_global.h"
+#include "mitem.h"
+
+class MCOMPETDATASHARED_EXPORT MGameItem : public MItem
 {
 public:
     MGameItem();

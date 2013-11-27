@@ -1,7 +1,10 @@
 #ifndef MTOURNAMENTITEM_H
 #define MTOURNAMENTITEM_H
 
-class MTournamentItem : public MItem
+#include "mcompetdata_global.h"
+#include "mitem.h"
+
+class MCOMPETDATASHARED_EXPORT MTournamentItem : public MItem
 {
 public:
     MTournamentItem();

@@ -1,7 +1,10 @@
 #ifndef MCATEGORYITEM_H
 #define MCATEGORYITEM_H
 
-class MCategoryItem : public MItem
+#include "mcompetdata_global.h"
+#include "mitem.h"
+
+class MCOMPETDATASHARED_EXPORT MCategoryItem : public MItem
 {
 public:
     MCategoryItem();

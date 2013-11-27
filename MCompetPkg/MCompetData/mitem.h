@@ -1,7 +1,9 @@
 #ifndef MITEM_H
 #define MITEM_H
 
-class MItem
+#include "mcompetdata_global.h"
+
+class MCOMPETDATASHARED_EXPORT MItem
 {
 public:
     MItem();
