@@ -8,8 +8,13 @@ class MCOMPETDATASHARED_EXPORT MGroupItem : public MItem
 {
 public:
     MGroupItem();
+    ~MGroupItem();
+
+    QString TeamName();
+    void SetTeamName(QString team_name);
 
 private:
+    QString team_name_;
 
 };
 

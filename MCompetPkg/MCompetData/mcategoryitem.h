@@ -8,8 +8,14 @@ class MCOMPETDATASHARED_EXPORT MCategoryItem : public MItem
 {
 public:
     MCategoryItem();
+    ~MCategoryItem();
+
+    float WeightLimit();
+    void SetWeightLimit(float weight_limit);
 
 private:
+    float   weight_limit_;
+    bool    is_open_;
 
 };
 
