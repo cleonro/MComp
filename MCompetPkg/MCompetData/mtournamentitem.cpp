@@ -4,3 +4,8 @@ MTournamentItem::MTournamentItem()
 {
 
 }
+
+MTournamentItem::~MTournamentItem()
+{
+
+}
