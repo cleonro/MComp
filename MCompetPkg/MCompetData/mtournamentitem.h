@@ -13,7 +13,7 @@ public:
     ~MTournamentItem();
 
 private:
-    QVector<>
+    //QVector<>
 };
 
 #endif // MTOURNAMENTITEM_H

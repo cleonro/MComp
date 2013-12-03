@@ -27,7 +27,7 @@ QString MGameItem::WinnerId()
 
 void MGameItem::SetWinnerId(QString winner_id)
 {
-    winner_id_ = winner_id_;
+    winner_id_ = winner_id;
 }
 
 QString MGameItem::CategoryId()
@@ -37,5 +37,5 @@ QString MGameItem::CategoryId()
 
 void MGameItem::SetCategoryId(QString category_id)
 {
-    caategory_id_ = category_id;
+    category_id_ = category_id;
 }

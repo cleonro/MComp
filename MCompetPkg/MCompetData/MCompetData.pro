@@ -17,7 +17,8 @@ SOURCES += mcompetdata.cpp \
     mgroupitem.cpp \
     mtournamentitem.cpp \
     mcategoryitem.cpp \
-    mgameitem.cpp
+    mgameitem.cpp \
+    mtournamentcategoryitem.cpp
 
 HEADERS += mcompetdata.h\
         mcompetdata_global.h \
@@ -26,7 +27,8 @@ HEADERS += mcompetdata.h\
     mgroupitem.h \
     mtournamentitem.h \
     mcategoryitem.h \
-    mgameitem.h
+    mgameitem.h \
+    mtournamentcategoryitem.h
 
 unix:!symbian {
     maemo5 {
