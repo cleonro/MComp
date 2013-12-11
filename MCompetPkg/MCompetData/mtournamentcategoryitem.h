@@ -3,8 +3,16 @@
 
 #include "mitem.h"
 
-class MTournamentCategoryItem : public MItem
+class MCOMPETDATASHARED_EXPORT MTournamentCategoryItem : public MItem
 {
+    class MGameTree
+    {
+    public:
+
+    private:
+
+    };
+
 public:
     MTournamentCategoryItem();
     ~MTournamentCategoryItem();
